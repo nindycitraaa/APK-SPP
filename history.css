@@ -1,0 +1,21 @@
+
+@import url("themes.css");
+
+.formnya-history{
+    /* make it at center */
+    padding: 40px 0 !important;
+    max-width: 98% !important;
+    border: var(--color-hover) !important;
+    text-align: center;
+    padding-bottom: 0px !important;
+    border-radius: 0.50rem !important;
+}
+
+.formnya-history input:focus{
+    /* make it at center */
+    border: var(--color-hover) !important;
+}
+
+#tested{
+    margin-bottom: 10px !important;
+}

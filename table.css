@@ -1,0 +1,82 @@
+
+@import url("themes.css");
+body{
+    background-color: var(--main-bg-color) !important;
+}
+
+.all-table{
+    /*background-image: url(/Assets/index_wallpaper.jpg);*/
+    background-color: var(--main-bg-color) !important;
+    border-radius: 0.25rem !important;
+}
+
+.all-table h2{
+    margin: 20px;
+    color: var(--text-color);
+}
+.all-table h3{
+    /* make text h3 centered */
+    text-align: center;
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #7e7e7e; 
+    /* make text capital css    */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 20px;
+}
+.all-table a{
+    text-decoration: none;
+    color: white;
+    /* make text capital css    */
+    text-transform: uppercase;    
+}
+.all-table a:hover{
+    color:var(--color-hover) !important;
+    text-decoration: none;
+}
+.all-table button{
+    /* make the button at the right */
+    color: var(--text-color);
+    border-color: #7e7e7e;;
+    margin: 15px 20px 15px 20px;
+}
+
+.all-table button:hover{
+    color: var(--color-hover);
+    border-color: var(--color-hover);
+    background-color:transparent !important;
+}
+
+.table-number{
+    /* make it centered */
+    border-color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.table{
+    /* make table centered */
+    margin: 0 auto;
+    max-width: 90% !important;
+    border-width: 2px !important;
+    border-radius: 0.25rem !important;
+    border-color: var(--color-hover);
+    border-width: 4px;
+
+}
+.custom-select{
+    border: 1px solid #ced4da !important;
+    height: 30px !important;
+    border-radius: .25rem !important;
+    width: 69% !important;
+}
+.form-control{
+    width: 69% !important;
+}
+.id-hide{
+    display: none;
+}

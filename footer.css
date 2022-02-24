@@ -1,0 +1,31 @@
+
+@import url("themes.css");
+.footer-section {
+  background: var(--main-bg-color);
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+}
+.footer-section a{
+  text-decoration: none !important;
+}
+.copyright-area{
+  background: var(--main-bg-color);
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+.copyright-text p a{
+  color: rgb(72, 248, 248);
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a.copyright-text{
+  color: rgb(81, 0, 128);
+}
